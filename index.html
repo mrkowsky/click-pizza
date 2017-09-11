@@ -24,16 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#main-header">Strona Główna <span class="sr-only">(aktualny)</span></a>
+              <a class="nav-link nav-link-header" href="#main-header">Strona Główna <span class="sr-only">(aktualny)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#menu-section">Menu</a>
+              <a class="nav-link nav-link-menu" href="#menu-section">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#delivery-section">Dowóz</a>
+              <a class="nav-link nav-link-delivery" href="#delivery-section">Dowóz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-section">Kontakt</a>
+              <a class="nav-link nav-link-contact" href="#contact-section">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -481,6 +481,7 @@
       <div class="row">
         <div class="col text-center">
           <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#contactModal">Napisz do nas</button>
+          <a href="#main-header"><i class="fa fa-arrow-circle-up pull-right arrow-top"></i></a>
         </div>
       </div>
     </div>
@@ -522,8 +523,8 @@
           </form>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
-            <input type="button" value="Wyślij" class="btn btn-success">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+          <input type="button" value="Wyślij" class="btn btn-success">
         </div>
       </div>
     </div>
@@ -532,6 +533,34 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(".nav-link-header").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#main-header").offset().top
+      }, 1500);
+    });
+    $(".nav-link-menu").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#menu-section").offset().top
+      }, 1500);
+    });
+    $(".nav-link-delivery").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#delivery-section").offset().top
+      }, 1500);
+    });
+    $(".nav-link-contact").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#contact-section").offset().top
+      }, 1500);
+    });
+    $(".arrow-top").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#main-header").offset().top
+      }, 1500);
+    });
+  </script>
 </body>
 
 </html>

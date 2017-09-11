@@ -113,6 +113,17 @@ footer#main-footer {
     footer#main-footer p .footer-by-2 {
       color: #f1bb0a; }
 
+  .arrow-top {
+    font-size: 3rem;
+    color: #DC2F21;
+    background-color: #F8B006;
+    cursor: pointer;
+  }
+  .arrow-top:hover {
+    color: #fff;
+    transition: color 500ms ease-out;
+  }
+
 @media (max-width: 990px) {
   section#main-section {
     padding-top: 6rem;
