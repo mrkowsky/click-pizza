@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, sans-serif; }
+
+.bg-pizza {
+  background-color: rgba(220, 47, 33, 0.9); }
+
+a.navbar-brand {
+  color: #F8B006 !important; }
+
+#main-navbar {
+  border-bottom: solid 3px #F8B006;
+  font-size: 1.2rem; }
+
+section#main-section {
+  background: url("../img/main-bg.jpeg") no-repeat center center;
+  min-height: 980px;
+  min-width: 100%;
+  background-size: cover;
+  padding-top: 10rem; }
+  section#main-section .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eee;
+    border-radius: 5px; }
+  section#main-section .fa {
+    font-size: 3rem;
+    background: #DC2F21;
+    color: #F8B006;
+    border-radius: 2rem;
+    padding: 10px; }
+  section#main-section p.main-text {
+    font-size: 2.5rem;
+    font-weight: 500; }
+  section#main-section .card {
+    width: 21rem; }
+  section#main-section .card-body {
+    background: #DC2F21;
+    color: #F8B006;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem; }
+
+section#menu-section {
+  background: url("../img/menu-bg.jpg") no-repeat;
+  color: #eee;
+  background-size: cover; }
+  section#menu-section .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  section#menu-section header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 1rem; }
+    section#menu-section header hr {
+      background: #ddd; }
+    section#menu-section header p {
+      font-size: 1.2rem;
+      font-weight: light; }
+  section#menu-section .card {
+    background: #ddd;
+    color: #333;
+    border: 1px solid #DC2F21; }
+  section#menu-section .card-header {
+    background: #F8B006; }
+  section#menu-section .card-header a {
+    color: #DC2F21;
+    font-size: 1.6rem;
+    font-weight: bold; }
+  section#menu-section .card-body {
+    font-size: 1.2rem; }
+
+section#delivery-section {
+  background: #DC2F21;
+  color: #fff;
+  background-size: cover;
+  padding: 3rem; }
+  section#delivery-section .container {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 1rem; }
+  section#delivery-section hr {
+    background: #fff; }
+  section#delivery-section p {
+    font-size: 1.5rem;
+    font-weight: light; }
+  section#delivery-section .contact,
+  section#delivery-section i {
+    font-size: 2.5rem;
+    color: #F8B006; }
+
+section#contact-section {
+  background: #F8B006; }
+  section#contact-section .btn {
+    color: #DC2F21;
+    border: 1px solid #DC2F21; }
+  section#contact-section .btn:hover {
+    color: #F8B006;
+    background: #DC2F21; }
+
+footer#main-footer {
+  background: #333;
+  color: #eee; }
+  footer#main-footer p {
+    margin: 0;
+    font-style: italic;
+    font-size: 0.8rem; }
+    footer#main-footer p span {
+      font-weight: bold;
+      font-size: 0.9rem; }
+    footer#main-footer p .footer-by-1 {
+      color: #0167bb; }
+    footer#main-footer p .footer-by-2 {
+      color: #f1bb0a; }
+
+@media (max-width: 990px) {
+  section#main-section {
+    padding-top: 6rem;
+    padding-bottom: 3rem; }
+  section#delivery-section div.col {
+    text-align: center; }
+  section#delivery-section p {
+    margin-bottom: 2rem; }
+  section#delivery-section span.contact {
+    font-size: 1.8rem; }
+  section#delivery-section i {
+    font-size: 2rem; }
+  section#delivery-section div.col-md-9 {
+    margin-bottom: 1.5rem; }
+  section#menu-section .card-body table thead {
+    font-size: 1.1rem; } }
+
+@media (max-width: 770px) {
+  section#main-section {
+    padding-top: 6rem;
+    padding-bottom: 3rem; }
+    section#main-section div.container {
+      padding: 2rem;
+      width: 88%; }
+    section#main-section p.main-text,
+    section#main-section .fa {
+      font-size: 2rem;
+      text-align: center; }
+    section#main-section .card p {
+      font-size: 1.4rem; } }
+
+@media (max-width: 500px) {
+  section#main-section .card {
+    width: 80%; }
+  section#main-section .card-body table {
+    font-size: 1rem;
+    margin: auto; }
+    section#main-section .card-body table th {
+      font-weight: normal;
+      font-size: 1rem; }
+    section#main-section .card-body table .menu-number {
+      display: none; } }

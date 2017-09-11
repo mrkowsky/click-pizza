@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pl">
+
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Pizzeria</title>
+</head>
+
+<body>
+
+  <header id="main-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-pizza fixed-top" id="main-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Click Pizza</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#main-header">Strona Główna <span class="sr-only">(aktualny)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu-section">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#delivery-section">Dowóz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN SECTION -->
+  <section id="main-section">
+    <div class="container pb-sm-3">
+      <div class="row">
+        <div class="col-lg-7 col-sm-12 order-sm-2 my-auto">
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <p class="main-text">Najlepsza pizza</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-money" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <p class="main-text">Niskie ceny</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-car" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <p class="main-text">Dogodna lokalizacja</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-credit-card" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <p class="main-text">Zapłać kartą</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-phone-square" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <p class="main-text">Zadzwoń &mdash; 22 22 222</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-sm-12 order-sm-1">
+          <div id="main-card" class="py-5">
+            <div class="card mx-auto" id="card-main">
+              <img class="card-img-top" src="img/logo.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <p class="m-0">ul. Losowa 10</p>
+                <p class="mb-4">08-543 Świebodzin</p>
+                <p class="m-0">PON-PIA 10:00 - 22:00</p>
+                <p>SOB-NIE 10:00 - 00:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu-section">
+    <div class="container">
+      <div class="row">
+        <header class="col">
+          <h2 class="h1 text-center">Nasze Menu</h2>
+          <hr class="my-4">
+          <p>W swojej ofercie posiadamy wszelkiego rodzaju pizzę. Od popularnych do najbardziej wyszukanych. W karcie znalazło
+            się też miejsce dla dań głównych, makaronów, sałatek oraz fast foodów. Do posiłku można zamówić też coś do picia.
+            Menu skonstruowane jest tak, że każdy odnajdzie w nim to co spełnia jego wymagania.</p>
+        </header>
+      </div>
+      <div class="row">
+        <div class="col">
+
+          <div id="accordion" role="tablist" class="pb-5">
+            <div class="card">
+              <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Pizza
+                      </a>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+
+                  <table class="table table-responsive table-hover table-sm text-center">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="menu-number">#</th>
+                        <th></th>
+                        <th>32cm</th>
+                        <th>32cm cienkie ciasto</th>
+                        <th>45cm</th>
+                        <th>45cm cienkie ciasto</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="menu-number">1</th>
+                        <td>Pizza Margherita <small class="d-block">(sos, ser, pieczarki, oregano)</small></td>
+                        <td>14,00</td>
+                        <td>13,00</td>
+                        <td>18,00</td>
+                        <td>16,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">2</th>
+                        <td>Pizza Capriciosa <small class="d-block">(sos, ser, pieczarki, szynka)</small></td>
+                        <td>16,00</td>
+                        <td>15,00</td>
+                        <td>20,00</td>
+                        <td>18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">3</th>
+                        <td>Pizza Hawajska <small class="d-block">(sos, ser, szynka, ananas)</small></td>
+                        <td>16,00</td>
+                        <td>15,00</td>
+                        <td>20,00</td>
+                        <td>18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">4</th>
+                        <td>Pizza Wiejska <small class="d-block">(sos, ser, kiełbasa, pieczarki, cebula)</small></td>
+                        <td>17,00</td>
+                        <td>16,00</td>
+                        <td>21,00</td>
+                        <td>19,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">5</th>
+                        <td>Pizza Suprise <small class="d-block">(sos, ser, kurczak, kukurydza, pieczarki)</small></td>
+                        <td>16,00</td>
+                        <td>15,00</td>
+                        <td>20,00</td>
+                        <td>18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">6</th>
+                        <td>Pizza Torino <small class="d-block">(sos, ser, tuńczyk, oregano)</small></td>
+                        <td>16,00</td>
+                        <td>15,00</td>
+                        <td>20,00</td>
+                        <td>18,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">7</th>
+                        <td>Pizza Colorato <small class="d-block">(sos majonezowy, ser, kurczak, pieczarki, cebula)</small></td>
+                        <td>16,00</td>
+                        <td>15,00</td>
+                        <td>20,00</td>
+                        <td>18,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="headingTwo">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Dania Główne
+                      </a>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+
+                  <table class="table table-responsive table-hover table-sm">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="menu-number">#</th>
+                        <th></th>
+                        <th>Cena</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="menu-number">1</th>
+                        <td>Kotlet De Volaille <small class="d-block">(surówka, frytki lub ziemniaczki zapiekane)</small></td>
+                        <td>14,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">2</th>
+                        <td>Kotlet Schabowy <small class="d-block">(surówka, frytki lub ziemniaczki zapiekane)</small></td>
+                        <td>14,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">3</th>
+                        <td>Karkówka <small class="d-block">(surówka, frytki lub ziemniaczki zapiekane)</small></td>
+                        <td>16,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">4</th>
+                        <td>Ryba - Filet <small class="d-block">(surówka, frytki lub ziemniaczki zapiekane)</small></td>
+                        <td>14,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="headingThree">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Makarony
+                      </a>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+
+                  <table class="table table-responsive table-hover table-sm">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="menu-number">#</th>
+                        <th></th>
+                        <th>Cena</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="menu-number">1</th>
+                        <td>Spaghetti Bolognese <small class="d-block">(makaron spaghetti z sosem bolońskim i mięsem mielonym)</small></td>
+                        <td>13,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">2</th>
+                        <td>Carbonara <small class="d-block">(makaron penne z sosem śmietanowym z boczkie i bazylią)</small></td>
+                        <td>13,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="headingFour">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Sałatki
+                      </a>
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+
+                  <table class="table table-responsive table-hover table-sm">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="menu-number">#</th>
+                        <th></th>
+                        <th>Cena</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="menu-number">1</th>
+                        <td>Sałatka Grecka <small class="d-block">(sałata lodowa, pomidor, ogórek, cebula, papryka, ser feta, oliwki, sos)</small></td>
+                        <td>8,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">2</th>
+                        <td>Sałatka Hawajska <small class="d-block">(kapusta pekińska, pomidor, ogórek, tuńczyk papryka, kukurydza, cebula, sos)</small></td>
+                        <td>8,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="headingFive">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Fast Food
+                      </a>
+                </h5>
+              </div>
+              <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body">
+
+                  <table class="table table-responsive table-hover table-sm">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="menu-number">#</th>
+                        <th></th>
+                        <th>Cena</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="menu-number">1</th>
+                        <td>Frytki</td>
+                        <td>4,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">2</th>
+                        <td>Zapiekanka</td>
+                        <td>4,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">3</th>
+                        <td>Kebab <small class="d-block">(bułka, pita)</small></td>
+                        <td>10,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">4</th>
+                        <td>Kebab XXL <small class="d-block">(bułka, pita)</small></td>
+                        <td>14,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="headingSix">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Inne
+                      </a>
+                </h5>
+              </div>
+              <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body">
+
+                  <table class="table table-responsive table-hover table-sm">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="menu-number">#</th>
+                        <th></th>
+                        <th>Cena</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="menu-number">1</th>
+                        <td>Herbata</td>
+                        <td>5,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">2</th>
+                        <td>Kawa</td>
+                        <td>6,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">3</th>
+                        <td>Espresso</td>
+                        <td>6,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">4</th>
+                        <td>Cappucino</td>
+                        <td>6,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="menu-number">5</th>
+                        <td>Napoje zimne <small class="d-block">(coca-cola, fanta, sprite, nestea, cappy)</small></td>
+                        <td>5,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERY SECTION -->
+  <section id="delivery-section">
+    <div class="container mx-auto">
+      <div class="row" id="delivery-main-row">
+        <div class="col">
+          <header id="delivery-header">
+            <h2 class="h1 text-center">Zamów jedzenie do domu</h2>
+            <hr class="my-4">
+            <p>Jeśli nie masz czasu odwiedzić naszego lokalu, to po prostu zadzwoń. Dowieziemy do Ciebie jedzenie.</p>
+          </header>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <span class="contact">22 22 222</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-truck" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <span class="contact">Dowozimy na terenie całego miasta</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <span class="contact">Błyskawiczny dowóz</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-auto text-center">
+              <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-9">
+              <span class="contact">Nic nie płacisz!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact-section" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#contactModal">Napisz do nas</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN FOOTER -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p class="py-3">&copy; 2017 &mdash; by <span class="footer-by-1">mrkowsky</span> <span class="footer-by-2">studio</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Kontakt</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Imię i Nazwisko">
+              <small class="form-text text-muted">Nigdy nie udostępnimy twoich danych osobowych.</small>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Adres Email">
+              <small class="form-text text-muted">Potrzebujemy go, żeby do Ciebie odpisać.</small>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+            <input type="button" value="Wyślij" class="btn btn-success">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
