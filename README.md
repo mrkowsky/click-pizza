@@ -1,8 +1,8 @@
 # Click Pizza
 
-Super simple theme for fake pizza restaurant
+Super simple theme for fake pizza restaurant.
 
-### Version 1.0
+### Version 1.1
 
 ## Technologies
 * [Bootstrap v4.0.0-beta](http://getbootstrap.com)
